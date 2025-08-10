@@ -1,5 +1,36 @@
 use anchor_lang::prelude::*;
 
+#[derive(AnchorSerialize, AnchorDeserialize, Clone, PartialEq, Eq, Debug)]
+pub enum PaymentCategory {
+    Contributors,
+    Grants,
+    Operations,
+    Marketing,
+    Development,
+    Other,
+}
+
+
+
+
+
+
+
+
+
+#[derive(AnchorDeserialize, AnchorSerialize, Clone)]
+pub struct GovernanceSettings{
+    pub is_paused: bool,
+
+    pub max_stream_amount: u64,
+
+    pub_max_total_allocation: u64,
+
+    pub last_updated: i64,
+
+
+}
+
 
 
 #[account]
