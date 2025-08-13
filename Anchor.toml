@@ -5,14 +5,20 @@ package_manager = "yarn"
 resolution = true
 skip-lint = false
 
+[programs.devnet]
+mirai = "DZSxnR9m1r5Rt3hG8eZj6zGmsiGSEYwCdmwQF2dCqga6"
+
 [programs.localnet]
+mirai = "DZSxnR9m1r5Rt3hG8eZj6zGmsiGSEYwCdmwQF2dCqga6"
+
+[programs.mainnet]
 mirai = "DMiFVyoupSnwoWs2xq8n5X3hwtaaU6vLv9EkdSFoNsSv"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
