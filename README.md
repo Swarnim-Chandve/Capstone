@@ -32,10 +32,11 @@ programs/mirai/
 
 ## 🏗️ Architecture and Working Diagram
 
+[![Mirai Architecture Diagram](./diag.png)](./diag.png)
+
 For a detailed visual representation of Mirai's modular architecture, marketplace integration, and system flow, please refer to our interactive diagram:
 
 **[View Mirai Architecture Diagram](https://excalidraw.com/#json=7OVJn4MvJ8u_AfwBMSrxw,WNT-mnRvRhLTNm9VZtKUrA)**
-
 
 ## 🔧 Installation & Setup
 
