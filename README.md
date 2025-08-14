@@ -62,6 +62,11 @@ anchor build
 anchor test
 ```
 
+## Devnet Deployment:
+
+Signature: 5RP5KyR7CZ9pvHTbWS6FTLS1BcRXzSFFobnhMWXsjXF69NNCUCniB1fv7cPxHd7jwF7MVKqqQLbDZVkWMAm2MKGq
+   
+
 ## 🧪 Testing
 
 The project includes comprehensive test coverage with 28 test cases covering:
